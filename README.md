@@ -41,13 +41,23 @@
 - Shapiro-Wilk Test
 - Mann-Whitney U Test
 
-### Bootstrap Analysis
+## Bootstrap Analysis
 
 使用 Bootstrap 重采样方法：
 
 - 构建均值差分布
 - 分析实验结果稳定性
 - 计算 95% Confidence Interval
+
+### Bootstrap Confidence Interval
+
+使用 Bootstrap 重采样方法分析 paying users 的均值差分布，
+并构建 95% Confidence Interval。
+
+结果显示：
+置信区间包含 0，说明当前实验未发现稳定的 Revenue 提升证据。
+
+![Bootstrap CI](images/bootstrap_ci_paying_users.png)
 
 ## 核心结论（Key Findings）
 
