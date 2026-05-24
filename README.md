@@ -10,6 +10,13 @@
 本项目从数据清洗、可视化分析、统计检验以及 Bootstrap 重采样等角度，
 对实验结果进行完整分析，并评估实验结论的可靠性。
 
+## 项目亮点（Highlights）
+
+- 完整实现 AB Test 分析流程，包括数据清洗、统计检验与 Bootstrap 分析；
+- 针对偏态 Revenue 数据，使用 Mann-Whitney U Test 进行非参数检验；
+- 使用 Bootstrap 方法构建均值差置信区间，评估实验结果稳定性；
+- 基于用户级聚合（User-Level Aggregation）降低重复行为记录带来的偏差。
+
 ## 分析内容
 
 ### 数据清洗（Data Cleaning）
@@ -56,11 +63,11 @@
 ## Tech Stack
 
 - Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Pandas / NumPy
+- Matplotlib / Seaborn
 - SciPy
+- Statistical Testing
+- Bootstrap Resampling
 
 ## Project Structure
 
